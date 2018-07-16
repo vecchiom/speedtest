@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Speed Test</title>
+    <!-- INCLUDE BOOTSTRAP -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- INCLUDE GOOGLEAPIS FOR FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Gaegu|Londrina+Sketch|Tenali+Ramakrishna" rel="stylesheet">
+    <!-- INCLUDE CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <!-- Bootstrap NavBar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <a class="navbar-brand" href="#">Speedtest</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Credits</a>
+          </li>
+          </ul>
+      </div>
+    </nav>
+    <!-- End of Bootstrap Navbar -->
+    <div class="text_container">
+      <h1 id="textspeed">SPEED TEST</h1>
+      <hr>
+      <p>This is a test on <em>nervous</em> speed: click START to start the test, wait for
+        the instructions on the display and click when "CLICK!" appears.
+        <br>
+        Bear in mind that <strong>CLICK! will appear at a random point in time</strong>, it can be immediately after the countdown
+        or later, so brace yourself!
+        <br>
+        Your result will be displayed below and you can start the game as much times you want.
+        <br>
+        <br>
+        Give it a try!
+      </p>
+    </div>
+
+    <div class="btn_container">
+      <button type="button" class="btn btn-outline-primary start_btn">START</button>
+      <button type="button" class="btn btn-outline-danger stop_btn">RESET</button>
+    </div>
+
+
+    <div class="main_container">
+        <p class="main_container__instruction">
+
+        </p>
+
+    </div>
+
+    <div class="showResults">
+    </div>
+    <div class="reflex">
+    </div>
+
+    <!-- Footer -->
+    <footer class="page-footer font-small teal">
+
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">© 2018 Copyright:
+        <a href="https://mdbootstrap.com/bootstrap-tutorial/"> MOld Engineering</a>
+      </div>
+      <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+    <!-- INCLUDE SCRIPT TO JS FILE -->
+    <script src="./js/index.js" type="text/javascript"></script>
+    <!-- INCLUDE SCRIPT FOR BOOTSTRAP -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
